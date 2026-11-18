@@ -501,6 +501,8 @@ main { max-width: var(--maxw); margin: 0 auto; padding: 0 var(--gutter); }
 .sage-web strong { font-size: 0.8rem; }
 .sage-count { font-size: 0.74rem; font-weight: 650; padding: 2px 8px; border-radius: 999px; background: var(--prep-bg); color: var(--prep-ink); white-space: nowrap; }
 .sage-count--gone { background: var(--warn-bg); color: var(--warn-ink); }
+.sage-alive { margin-top: 12px !important; padding-top: 10px; border-top: 1px dashed var(--hairline); display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 6px 12px; font-size: 0.8rem; color: var(--faint); }
+.sage-alive strong { font-size: 0.8rem; font-weight: 700; padding: 2px 10px; border-radius: 999px; background: var(--done-bg); color: var(--done-ink); font-variant-numeric: tabular-nums; }
 .sg-sq { stop-color: var(--silence); }
 .sg-sl { stop-color: var(--warm); stop-opacity: .42; }
 .sg-sh { stop-color: var(--hot); stop-opacity: .3; }
