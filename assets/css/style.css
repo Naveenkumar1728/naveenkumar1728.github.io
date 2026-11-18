@@ -372,6 +372,9 @@ main { max-width: var(--maxw); margin: 0 auto; padding: 0 var(--gutter); }
 .facts strong { color: var(--text); }
 .facts dt { font-size: 0.74rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--faint); }
 .facts dd { margin: 0; color: var(--muted); }
+.facts .is-result { margin-inline: -10px; padding: 8px 10px; border-radius: 10px; background: color-mix(in srgb, var(--accent) 6%, transparent); box-shadow: inset 2px 0 0 color-mix(in srgb, var(--accent) 45%, transparent); }
+.facts .is-result dt { color: var(--accent); }
+.facts .is-result dd { color: var(--text); }
 
 
 /* ---------- Framework panel ---------- */
